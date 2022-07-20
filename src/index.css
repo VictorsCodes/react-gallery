@@ -1,0 +1,20 @@
+input[type="file"] {
+  background-color: #edf2f7;
+  width: 100%;
+  cursor: pointer;
+}
+
+label {
+  background-color: #edf2f7;
+  width: 100%;
+  padding: 8px;
+  border-radius: 5px;
+  display: flex;
+  gap: 10px;
+  cursor: pointer;
+}
+
+label:hover,
+input[type="file"]:hover {
+  background-color: #e2e8f0;
+}
