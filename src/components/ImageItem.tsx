@@ -8,7 +8,13 @@ type Props = {
 export const ImageItem = ({ name, url }: Props) => {
   return (
     <GridItem h='100%' boxShadow='lg' bg='gray.100' p='2' rounded='md'>
-      <Image fit='cover' maxW='300px' src={url} alt={name} borderRadius='sm' />
+      <Image
+        fit='cover'
+        boxSize='200px'
+        src={url}
+        alt={name}
+        borderRadius='sm'
+      />
       <Text align='center' fontSize='xs' mt={4}>
         {name}
       </Text>
